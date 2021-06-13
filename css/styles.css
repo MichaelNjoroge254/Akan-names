@@ -4,10 +4,12 @@ body{
 h3{
     text-align: center;
     padding-bottom: 8vh;
+    font-weight: bold;
 }
 h2{
     padding: 3vh;
     padding-bottom: 5vh;
+    font-weight: bold;
 }
 form{
     padding-left: 20vh;
@@ -18,4 +20,11 @@ form{
 }
 .form-btn{
     text-align: center;
+}
+small{
+    font-size: 1em;
+    font-family: cursive;
+}
+form label{
+    font-family: cursive;
 }
