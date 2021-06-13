@@ -1,0 +1,21 @@
+body{
+    padding-top: 5vh;
+}
+h3{
+    text-align: center;
+    padding-bottom: 8vh;
+}
+h2{
+    padding: 3vh;
+    padding-bottom: 5vh;
+}
+form{
+    padding-left: 20vh;
+    padding-right: 20vh;
+    border: 0.5px solid black;
+    border-radius: 30px;
+    padding: 7vh;
+}
+.form-btn{
+    text-align: center;
+}
