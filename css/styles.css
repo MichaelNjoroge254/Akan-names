@@ -9,11 +9,13 @@ h3{
     text-align: center;
     padding-bottom: 8vh;
     font-weight: bold;
+    font-size: 6vh;
 }
 h2{
     padding: 3vh;
     padding-bottom: 5vh;
     font-weight: bold;
+    font-size: 6vh;
 }
 form{
     padding-left: 20vh;
@@ -26,7 +28,7 @@ form{
     text-align: center;
 }
 small{
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: cursive;
 }
 form label{
