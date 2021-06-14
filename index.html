@@ -15,9 +15,7 @@
         <div class="row">
             <div class="col-md-4">
                 <h2>Akan Names</h2>
-                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, perferendis qui tempore
-                    exercitationem quaerat numquam atque quo aut quasi corporis, cum eos impedit! Amet adipisci quas
-                    aliquid provident, consequuntur earum.</small>
+                <small>Most African culture such as Ghana has a culture of naming children according to their day of birth, like a child born on monday was given the name Kwadwo for a boy and Adwoa for a girl. Due to the times and seasons, the culture isn't strictly followed. But here is a way to know what your Akan name could be if you were born in Ghana.</small>
                 <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolores provident
                     perspiciatis dolorum illum eos cum, vero, rem velit ipsam porro similique fugit beatae commodi nobis
                     aut, veniam harum distinctio quasi quam officiis. Cumque placeat, libero, in deleniti eveniet
@@ -28,28 +26,29 @@
                 <form name="myForm" onsubmit="validate();" class="form">
                     <div class="form-group">
                         <label for="yeah">Year of Birth</label>
-                        <input type="number" class="form-control" placeholder="1960" id="year" required>
+                        <input type="number" min="1950" max="2020" step="1" name="yeah"  class="form-control" placeholder="1960" id="year" required>
                     </div>
                     <div class="form-group">
-                        <label for="">Month of Birth</label>
-                        <input type="number" class="form-control" placeholder="12" id="month" required>
+                        <label for="month">Month of Birth</label>
+                        <input type="number" min="1" max="12" step="1" name="month" class="form-control" placeholder="12" id="month" required>
                     </div>
                     <div class="form-group">
                         <label for="">Date of Birth</label>
-                        <input type="number" class="form-control" placeholder="27" id="date" required>
+                        <input type="number" min="1" max="31" step="1" name="date"  class="form-control" placeholder="31" id="date" required>
                     </div>
                     <div class="form-group">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="gender" id="gender" value="Male" checked>
+                            <input class="form-check-input" type="radio" name="gender" id="male" 
+                            class="Male" checked>
                             <label class="form-check-label" for="inlineRadio1">Male</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="gender" id="gender" value="Female">
+                            <input class="form-check-input" type="radio" name="gender" id="female" class="Female">
                             <label class="form-check-label" for="inlineRadio2">Female</label>
                         </div>
                     </div>
                     <div class="form-group form-btn">
-                        <button class="btn btn-primary" onclick="validateForm()">Submit</button>
+                        <button type="submit" class="btn btn-primary" onclick="findName();">Submit</button>
                     </div>
                 </form>
             </div>
