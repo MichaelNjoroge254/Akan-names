@@ -1,5 +1,9 @@
 body{
     padding-top: 5vh;
+    background-image: url("https://images.pexels.com/photos/3385338/pexels-photo-3385338.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position:inherit;
 }
 h3{
     text-align: center;
