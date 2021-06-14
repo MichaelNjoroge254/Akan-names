@@ -2,7 +2,7 @@ var days = ["Sunday","Monday","Tuesday","Wednesday", "Thursday", "Friday","Satur
 var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
 var femaleNames = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
 
-function validateForm() {
+function validate() {
     var year = document.getElementById("year").value;
     if(year === "" && document.myForm.year.value.length !=4) {
         alert("Provide a valid year.");
